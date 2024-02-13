@@ -3,7 +3,7 @@
   "branches": [
     {name: "main"}
   ],
-  "repositoryUrl": "git@github.com:mikehardy/buildcache-action.git",
+  "repositoryUrl": "git@github.com:biodranik/buildcache-action.git",
   "plugins": [
     ["@semantic-release/commit-analyzer", {
       "preset": "conventionalcommits"

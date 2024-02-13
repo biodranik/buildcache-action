@@ -32,7 +32,7 @@ inputs:
     default: "latest"
     description: "Explicitly provide the tag for the release of buildcache to be used. ie. `v0.27.7`"
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/restore/index.js'
   post: 'dist/save/index.js'
 branding:
